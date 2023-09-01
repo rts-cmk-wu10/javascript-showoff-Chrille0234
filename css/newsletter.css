@@ -1,0 +1,61 @@
+.signUpToNewsletter{
+	display: none;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px rgba(0, 0, 0, 0.502);
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px -2px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 5px 5px 4px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 4px -2px rgba(0,0,0,0.75);
+	background-color: white;
+
+    padding: 20px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signUpToNewsletter h2{
+    text-align: center;
+}
+.signUpToNewsletter form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-block: 20px;
+}
+.signUpToNewsletter form label{
+    font-size: 0.8rem
+}
+.signUpToNewsletter form button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.signUpToNewsletter__close{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 0.8rem;
+	cursor: pointer;	
+}
+
+.dont-ask-again{
+	color: gray;
+	font-size: 0.8rem;
+}
+.dont-ask-again:hover{
+	color: black;
+}
