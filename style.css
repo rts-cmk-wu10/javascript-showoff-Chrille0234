@@ -1,6 +1,18 @@
 @import url(css/newsletter.css);
+@import url(css/cards.css);
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
+	background-color: var(--color-background);
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+	--color-main: #d9964a;
+	--color-accent: #f1fc7a;
+	--color-background: #7aff59;
 }

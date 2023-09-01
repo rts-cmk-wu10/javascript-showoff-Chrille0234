@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
@@ -10,14 +10,76 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-	<h1 class="heading"></h1>
+	<h1 class="heading">Nyhedsbrev og farve tema</h1>
+
+	<article style="padding-bottom: 15px;">
+		<h2>Ændre farve tema</h2>
+		<form>
+			<label id="firstTheme">
+				Rødt tema
+				<input type="radio" name="theme" selected>
+			</label>
+	
+			<label id="secondTheme">
+				blåt tema
+				<input type="radio" name="theme">
+			</label>
+	
+			<label id="thirdTheme">
+				grønt tema
+				<input type="radio" name="theme">
+			</label>
+	
+			<label id="fourthTheme">
+				gul/grønt tema
+				<input type="radio" name="theme">
+			</label>
+		</form>
+	</article>
+
+	<section class="cards">
+		<article class="card">
+			<h2>kort navn</h2>
+			<p>Beskrivelse</p>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio exercitationem pariatur iure quos cupiditate commodi nobis ipsum quasi velit consequatur!</p>
+			<button>Tekst</button>
+		</article>
+
+		<article class="card">
+			<h2>kort navn</h2>
+			<p>Beskrivelse</p>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio exercitationem pariatur iure quos cupiditate commodi nobis ipsum quasi velit consequatur!</p>
+			<button>Tekst</button>
+		</article>
+
+		<article class="card">
+			<h2>kort navn</h2>
+			<p>Beskrivelse</p>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio exercitationem pariatur iure quos cupiditate commodi nobis ipsum quasi velit consequatur!</p>
+			<button>Tekst</button>
+		</article>
+
+		<article class="card">
+			<h2>kort navn</h2>
+			<p>Beskrivelse</p>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio exercitationem pariatur iure quos cupiditate commodi nobis ipsum quasi velit consequatur!</p>
+			<button>Tekst</button>
+		</article>
+
+
+		<article class="card">
+			<h2>kort navn</h2>
+			<p>Beskrivelse</p>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio exercitationem pariatur iure quos cupiditate commodi nobis ipsum quasi velit consequatur!</p>
+			<button>Tekst</button>
+		</article>
+	</section>
 
 	<footer>
 		<article class="signUpToNewsletter">
-			<h2 class="signUpToNewsletter__heading">Skriv dig op til vores nyhedsbrev pleaseee</h2>
+			<h2 class="signUpToNewsletter__heading">Skriv dig op til vores nyhedsbrev please</h2>
 			<p class="signUpToNewsletter__paragraph">Jeg lover vi kun sender en email om dagen</p>
 			<p class="signUpToNewsletter__paragraph">Du kan altid bede os om at lade vær' med at sende spam, hvis du kan finde den rigtige knap</p>
-
 			<form action="/newsletter" method="POST">	
 				<label>
 					Indtast din email
@@ -29,7 +91,10 @@
 			<p class="dont-ask-again">ikke spørg igen</p>
 			<button class="signUpToNewsletter__close material-symbols-outlined">close</button>
 		</article>
+
 	</footer>
-	<script src="/app.js" defer></script>
+
+	<script src="/newsletter.js" defer></script>
+	<script src="/colorTheme.js" defer></script>
 </body>
 </html>
